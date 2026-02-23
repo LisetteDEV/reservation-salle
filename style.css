@@ -1,0 +1,36 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f4f6f9;
+    min-height: 100vh;       /* ← ajoute ces deux lignes */
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;                 
+}
+
+.card-hover {
+    transition: 0.3s ease;
+    border-radius: 15px;
+}
+
+.card-hover:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+.navbar-brand {
+    font-size: 1.3rem;
+}
+
+.bg-gradient {
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+}
+
+.form-card {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 15px;
+}
+
